@@ -5,9 +5,10 @@ Description:
 This Python script utilizes the OpenAI GPT-3.5-turbo model to generate personalized workout routines based on user input. Users can specify their age, gender, height, weight, fitness goal, and target muscle group to receive a tailored workout plan.
 
 Dependencies:
+- streamlit
+- openai
 
-streamlit
-openai
+
 Setup:
 
 Create a GitHub repository for your project.
@@ -20,6 +21,8 @@ Usage:
 Run the Python script.
 Input your age, gender, height, weight, fitness goal, and desired muscle group.
 The script will generate a workout routine based on your input.
+
+
 Note:
 
 This project requires an OpenAI API key to function.
@@ -29,6 +32,8 @@ Limitations:
 
 The generated workout routines are based on general fitness knowledge and may not be suitable for everyone.
 The accuracy of the generated routines can be influenced by the quality of the OpenAI model and the provided prompts.
+
+
 Future Improvements:
 
 Incorporate user feedback to refine the generated workout routines.
